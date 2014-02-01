@@ -1,0 +1,29 @@
+<%= form_for(@basic_skill) do |f| %>
+  <div class="field-box">
+    <%= f.label :name %>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field-box">
+    <%= f.label :characteristic %>
+    <%= f.text_field :characteristic %>
+  </div>
+  <div class="field-box">
+    <%= f.label :descriptor %>
+    <%= f.text_field :descriptor %>
+  </div>
+  <div class="field-box">
+    <%= f.label :description %>
+    <%= f.text_area :description %>
+  </div>
+  <div class="field-box">
+    <%= f.label :use %>
+    <%= f.text_area :use %>
+  </div>
+  <div class="field-box">
+    <%= f.label :special_uses %>
+    <%= f.text_area :special_uses %>
+  </div>
+  <div class="actions">
+    <%= f.submit class: 'btn-glow success btn-finish' %>
+  </div>
+<% end %>

@@ -1,0 +1,8 @@
+<% @basic_skills.each do |basic_skill| %>
+  <article>
+    <p>
+      <%= basic_skill.name %>
+      <%= link_to 'edit', edit_skill_basic_path(basic_skill) %>
+    </p>
+  <article>
+<% end %>

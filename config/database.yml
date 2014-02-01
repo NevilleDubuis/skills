@@ -1,0 +1,29 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  min_messages: warning
+  database: wsdev
+  username: me
+  password: 1q2w3e
+  host: localhost
+  port: 5432
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: wstest
+  username: me
+  password: 1q2w3e
+  host: localhost
+  port: 5432
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: wsprod
+  username: me
+  password: 1q2w3e
+  host: localhost
+  port: 5432
+
